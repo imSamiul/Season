@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/Season/static/js/main.da86bcad.chunk.js",
-    "main.js.map": "/Season/static/js/main.da86bcad.chunk.js.map",
+    "main.js": "/Season/static/js/main.bfe28d94.chunk.js",
+    "main.js.map": "/Season/static/js/main.bfe28d94.chunk.js.map",
     "runtime-main.js": "/Season/static/js/runtime-main.32391892.js",
     "runtime-main.js.map": "/Season/static/js/runtime-main.32391892.js.map",
-    "static/js/2.447b15ca.chunk.js": "/Season/static/js/2.447b15ca.chunk.js",
-    "static/js/2.447b15ca.chunk.js.map": "/Season/static/js/2.447b15ca.chunk.js.map",
+    "static/js/2.ef17aac5.chunk.js": "/Season/static/js/2.ef17aac5.chunk.js",
+    "static/js/2.ef17aac5.chunk.js.map": "/Season/static/js/2.ef17aac5.chunk.js.map",
     "index.html": "/Season/index.html",
-    "static/js/2.447b15ca.chunk.js.LICENSE.txt": "/Season/static/js/2.447b15ca.chunk.js.LICENSE.txt"
+    "static/js/2.ef17aac5.chunk.js.LICENSE.txt": "/Season/static/js/2.ef17aac5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.32391892.js",
-    "static/js/2.447b15ca.chunk.js",
-    "static/js/main.da86bcad.chunk.js"
+    "static/js/2.ef17aac5.chunk.js",
+    "static/js/main.bfe28d94.chunk.js"
   ]
 }
