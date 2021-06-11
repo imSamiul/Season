@@ -21,7 +21,7 @@ class SeasonDisplay extends React.Component {
     return (
       <div>
         {this.state.err ? alert("There is an error. Maybe you dont give location permission") :
-        <h1>{"Latitude: " + this.state.latitude + " and Longitude: " + this.state.longitude}</h1>}
+  window.location.replace(`https://maps.google.com/?q=${this.state.latitude},${this.state.longitude}`)}
       </div>
     );
   }
