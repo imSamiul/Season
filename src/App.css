@@ -1,0 +1,41 @@
+body {
+  background-color: #eeeeee;
+}
+
+.seasonDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  columns: 2;
+}
+.ui.segment{
+    border-radius: 30px;
+}
+.ui.container{
+height: 800px;
+width: 75%;
+
+}
+.ui.text.container{
+    max-width: 97% !important;
+}
+.column.right {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  height: 75vh; /* Should be removed. Only for demonstration */
+}
+.column.left {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  height: 300px;
+  height: 75vh; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 100%;
+}
