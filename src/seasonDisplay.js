@@ -7,8 +7,8 @@ class SeasonDisplay extends React.Component {
     return (
       <div className="seasonDisplay">
         <div className="ui raised very padded text container segment inner_container">
-          <div class="three column stackable ui grid">
-            <Weather></Weather>
+          <div className="three column stackable ui grid">
+            <Weather lat = {this.props.lat}></Weather>
             <WeatherDetails></WeatherDetails>
           </div>
         </div>

@@ -11,7 +11,7 @@ class TimeAndDate extends React.Component {
     const today = new Date();
     const day = { weekday: "long" };
     
-    var intervalID = setInterval(()=>this.handleClockUpdate(), 1000);
+   setInterval(()=>this.handleClockUpdate(), 1000);
     this.setState({
       date: today.toLocaleDateString("en-US", date),
       day: today.toLocaleDateString("en-US", day)

@@ -8,10 +8,9 @@ class Weather extends React.Component {
         <div className="ui segment right">
         <div className="ui fluid icon input">
   <input type="text" className= "ui input SearchCity" placeholder="Search City...."></input>
-  <i class="search icon"></i>
+  <i className="search icon"></i>
 </div>
-          
-          <i className="sun icon"></i>
+         <i className="sun icon"></i>
           <h1 className="temparature degree">12</h1>
           <p className="temparature unit">°C</p>
           <p>Mostly Cloudy</p>

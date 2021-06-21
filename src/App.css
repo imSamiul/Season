@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4%;
+  margin-top: 7%;
   columns: 2;
 }
 .ui.segment{
@@ -18,7 +18,7 @@ body {
   background-color: #CAF7E3;
 }
 .ui.container{
-width: 75%;
+width: 122vh;
 background-color: #F8EDED;
 
 }
@@ -37,18 +37,18 @@ background-color: #F8EDED;
   padding-left: 3px;
 }
 .ui.input.SearchCity{
-  background: #CAF7E3;
+  background-color: #CAF7E3;
   border: 0px;
 }
+
 i.sun.icon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30vh;
+  display: block;
   margin: auto;
-  font-size: 11em;
+  margin-bottom: 50px;
+  font-size: 7em; 
   color: #FFBE0F;
-}
+ }
+
 .temparature{
   display: inline-block;
 }
@@ -63,6 +63,8 @@ bottom:  39px;
   font: small-caps bold 1.4em cursive;;
   text-align: center;
 }
-/* .right{
-  width: 35%;
-} */
+.ui.input > input {
+  background-color: #CAF7E3 !important;
+  font-size: 1.2em;
+}
+
