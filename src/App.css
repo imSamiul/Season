@@ -1,41 +1,67 @@
 body {
-  background-color: #eeeeee;
+  background-color: #F6DFEB;
 }
 
 .seasonDisplay {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  margin-top: 4%;
   columns: 2;
 }
 .ui.segment{
     border-radius: 30px;
 }
+.ui.segment.right{
+  /* display: flex; 
+  flex-direction: column;  */
+  background-color: #CAF7E3;
+}
 .ui.container{
-height: 800px;
 width: 75%;
+background-color: #F8EDED;
 
 }
 .ui.text.container{
     max-width: 97% !important;
 }
-.column.right {
-  float: left;
+.column.right.weather.div.only{
+  width: 30%;
+  height: 85%;
+  padding-right: 3px;
+  display: flex; /*added*/
+  flex-direction: column;
+}
+.column.left.weather.div.details{
+  width: 70%;
+  padding-left: 3px;
+}
+.ui.category.search{
+  text-align: center;
+}
+i.sun.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin: auto;
+  font-size: 11em;
+  color: #FFBE0F;
+}
+.temparature{
+  display: inline-block;
+}
+.temparature.degree{
+  font-size: 7em;}
+  .temparature.unit{
+    font-size: 3em;
+position: relative;
+bottom:  39px;
+}
+.TimeAndDate{
+  font: small-caps bold 1.4em cursive;;
+  text-align: center;
+}
+/* .right{
   width: 35%;
-  padding: 10px;
-  height: 75vh; /* Should be removed. Only for demonstration */
-}
-.column.left {
-  float: left;
-  width: 65%;
-  padding: 10px;
-  height: 300px;
-  height: 75vh; /* Should be removed. Only for demonstration */
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  height: 100%;
-}
+} */
