@@ -36,8 +36,9 @@ background-color: #F8EDED;
   width: 70%;
   padding-left: 3px;
 }
-.ui.category.search{
-  text-align: center;
+.ui.input.SearchCity{
+  background: #CAF7E3;
+  border: 0px;
 }
 i.sun.icon{
   display: flex;
