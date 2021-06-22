@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7%;
+  margin-top: 5%;
   columns: 2;
 }
 .ui.segment{
@@ -60,11 +60,27 @@ position: relative;
 bottom:  39px;
 }
 .TimeAndDate{
-  font: small-caps bold 1.4em cursive;;
+  font: bold 1.4em Lato;
   text-align: center;
 }
 .ui.input > input {
   background-color: #CAF7E3 !important;
   font-size: 1.2em;
 }
-
+@media only screen and (max-width: 767px) {
+  .ui.container{
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+  .ui.text.container {
+     max-width: 100% !important;
+     padding: 0%;
+     border: 0px; 
+}
+ .seasonDisplay{
+   margin-top: 0%;
+ }
+ .ui.segment{
+   border-radius: 0%;
+ }
+}

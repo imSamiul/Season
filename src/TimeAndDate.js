@@ -28,6 +28,7 @@ class TimeAndDate extends React.Component {
         <p>{this.state.time}</p>
         <p>{this.state.day}</p>
         <p>{this.state.date}</p>
+        <p>location</p>
       </div>
     );
   }

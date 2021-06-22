@@ -5,18 +5,18 @@ import "./App.css"
 class App extends React.Component {
   
 state = {
-  latitude: '',
+  latitude: 'any',
   err: "",
 };
-componentDidMount() {
-  navigator.geolocation.getCurrentPosition(
-    (success) =>
-      this.setState({
-        latitude: success.coords.latitude,
-      }),
-    (error) => this.setState({ err: error })
-  );
-}
+// componentDidMount() {
+//   navigator.geolocation.getCurrentPosition(
+//     (success) =>
+//       this.setState({
+//         latitude: success.coords.latitude,
+//       }),
+//     (error) => this.setState({ err: error })
+//   );
+// }
 
 render() {
   return (
