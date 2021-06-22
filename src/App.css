@@ -18,7 +18,7 @@ body {
   background-color: #CAF7E3;
 }
 .ui.container{
-width: 122vh;
+width: 63`vw;
 background-color: #F8EDED;
 
 }
@@ -45,7 +45,7 @@ i.sun.icon{
   display: block;
   margin: auto;
   margin-bottom: 50px;
-  font-size: 7em; 
+  font-size: 12em; 
   color: #FFBE0F;
  }
 
@@ -85,5 +85,11 @@ bottom:  39px;
  }
  .ui.segment.right{
   border-radius: 0 0 80px 80px;
+ }
+}
+@media only screen and  (min-width: 768px) and (max-width: 1024px){
+ 
+i.sun.icon{
+  font-size: 9em;
  }
 }
