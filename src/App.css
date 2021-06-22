@@ -83,4 +83,7 @@ bottom:  39px;
  .ui.segment{
    border-radius: 0%;
  }
+ .ui.segment.right{
+  border-radius: 0 0 80px 80px;
+ }
 }
